@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = 'angular-crash-todolist';
+  s;
+  title = "angular-crash-todolist";
+  // tslint:disable-next-line: no-inferrable-types
+  name: string = "JR";
 }
